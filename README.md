@@ -1,3 +1,9 @@
 # Todo-app
 
-[Go to Real Cool Heading section](https://hanna-kuzii.github.io/todo-app/)
+[DEMO LINK](https://hanna-kuzii.github.io/todo-app/)
+
+# Installing
+
+  1. Fork and clone this repository
+  2. Run npm install in your terminal
+  3. Run npm start
