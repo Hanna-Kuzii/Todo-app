@@ -1,0 +1,72 @@
+.Form {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  flex-grow: 3 1;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #d6cda4;
+
+  @media (max-width: 799px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__new-task {
+    display: flex;
+
+    @media (max-width: 799px) {
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+
+    &__label {
+      padding-top: 5px;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+
+    &__text {
+      margin: 0 5px 0 5px;
+      border: none;
+      border-radius: 5px;
+      width: 90%;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: 100;
+      font-style: italic;
+
+      &:first-child {
+        margin-bottom: 5px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__button {
+    padding: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    align-self: center;
+    height: 50%;
+    width: 20%;
+    background-color: #3d8361;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: #3d8361;
+
+    @media (max-width: 799px) {
+      width: 50%;
+    }
+
+    &:hover {
+      background-color: #bdb17c;
+      color: #113e35;
+      border: 0.5px solid #000;
+    }
+  }
+}
