@@ -5,5 +5,5 @@
 # Installing
 
   1. Fork and clone this repository
-  2. Run npm install in your terminal
-  3. Run npm start
+  2. Run [npm install] in your terminal
+  3. Run [npm start]
