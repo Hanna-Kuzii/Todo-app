@@ -1,6 +1,6 @@
 # Todo-app
 
-[DEMO LINK](https://hanna-kuzii.github.io/todo-app/)
+[DEMO LINK](https://hanna-kuzii.github.io/rick-and-morty--app/)
 
 # Installing
 
