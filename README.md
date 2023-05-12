@@ -9,8 +9,8 @@
   3. Run [npm start]
 
 # In this project you can:
-add new tasks (with description)
-edit tasks
-delete tasks
-check completed tasks
-filter tasks
+- add new tasks (with description)
+- edit tasks
+- delete tasks
+- check completed tasks
+- filter tasks
